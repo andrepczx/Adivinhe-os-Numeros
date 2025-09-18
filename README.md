@@ -7,7 +7,8 @@ Você escolhe a dificuldade e tenta acertar antes que suas tentativas acabem. Id
 
 ## 📍 Acesse o jogo online
 
-👉 [**Clique aqui para jogar**]([https://andrepczx.github.io/Jogo-Adivinhar/](https://andrepczx.github.io/Adivinhe-os-Numeros/main/mainpg/index.html))  
+👉 [**Clique aqui para jogar**]([https://andrepczx.github.io/Adivinhe-os-Numeros/main/mainpg/index.html])
+
 (Hospedado via GitHub Pages)
 
 ---
