@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Jogo de Adivinhação".</title>
+</head>
+<body>
+<main>
+    <h1>Adivinhe se puder!</h1>
+    <p>Um número foi gerado e você deve tentar acertar...</p>
+    <p class="modes">Escolha a Dificuldade</p>
+    
+<button id="easy" type="button">Fácil</button>
+<button id="medium" type="button">Médio</button>
+<button id="hard" type="button">Difícil</button>
+
+<script>
+document.getElementById('easy').onclick = () => {
+    window.location.href = '../pages/easymode/';
+};
+document.getElementById('medium').onclick = () => {
+    window.location.href = '../pages/mediummode/';
+};
+document.getElementById('hard').onclick = () => {
+    window.location.href = '../pages/hardmode/';
+}
+</script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+main {
+    background-color: #ffffffcc;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #222;
+}
+
+/* Parágrafo de instrução */
+main p:first-of-type {
+    margin-bottom: 25px;
+    font-size: 1em;
+    color: #444;
+}
+
+.mode-easy {
+    color: #34a300;
+    font-weight: bold;
+}
+
+
+
+/* Input */
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mensagens */
+#aviso {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #ff0202;
+    font-weight: bold;
+}
+
+
+#dica,
+#tentativas,
+#resultado {
+    margin-top: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#resultado {
+    font-size: 1.3em;
+    color: #e91e63;
+}
